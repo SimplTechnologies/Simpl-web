@@ -139,6 +139,9 @@ a {
     transform: translate (-50%, -50%);
     object-fit: cover;
 }
+.animate {
+    display: none;
+}
 
 .getting-started {
     background-color: #f6f6f6;
