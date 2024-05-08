@@ -601,27 +601,92 @@ footer {
     .hero {
         width: 100vw;
     }
+    .container-1 img {
+        height: 8vw;
+    }
     .container-1 h2 {
-        font-size: 6vw;
+        font-size: 3vw;
+        margin-top: 6px;
+    }
+    .container-2 .not {
+        display: none;
+    }
+    .container-2 .btn {
+        padding: 10px 10px;
+        margin: 6px 10px;
+    }
+    .hero-container {
+        position: relative;
+        top: -80px;
+        right: 35px;
     }
     .hero-container h2 {
         font-size: 200%;
+        padding:0 2rem 0 -2rem;
+    }
+    .hero-container .btn {
+        position: relative;
+        top: 180px;
+    }
+    .animate-container {
+        position: relative;
+        top: 70px;
+    }
+    .animate-container .animate {
+        height: 10vw;
+        width: 50vw;
+    }
+    .animate-container .animate p {
+        font-size: 4vw;
+    }
+    .animate-container .animate img {
+        max-height: 70%;
+
     }
     .hero-img-container {
-        width: 350px;
-        height: 170px;
+        outline: 2px solid red;
+        margin: 0 2px;  
+        max-width: 350px;
+        max-height: 190px;     
+        position: relative;
+        bottom: 100px;
+        right: 30px;
+    }
+    .getting-started {
+        height: 190vh;
+    }
+    .getting-started-container {
+        max-width: 450px;
+    }
+    .getting-started-container h1 {
+        font-size: 250%;
+    }
+    .getting-started-container #make-money {
+        font-size: 150%;
     }
     .card-container {
         flex-direction: column;
+        padding: 0;
+        text-align: center;
+   }
+   .card-text {
+    max-width: 50ch;
+    padding: 1rem;
    }
    .simpl-box-container {
        flex-direction: column;
    }
     .use-simpl {
-        height: 140vh;
+        height: 350vh;
     }
-    .simpl-text {
+    .simpl-text, .simpl-text .right {
         max-width: 25ch;
+        margin: 0 0 0 4rem;
+    }
+    .simpl-box-container .left { 
+        position: relative;
+        right: 50px;
+        
     }
     .simpl-text .right {
         position: absolute;
@@ -635,6 +700,44 @@ footer {
     .simpl-text .btn {
         position: relative;
         top: -25px;
+    }
+    .coming-soon {
+        height: 150vh;
+    }
+    .simpl-bot-text {
+        position: relative;
+        top: 60px;
+    }
+    .numbering {
+        margin-left: 1rem;
+    }
+    .simpl-bot-text .bot {
+        position: relative;
+        left: 20%;
+    }
+    footer {
+        height: 30vh;
+    }
+    .footer-container {
+        position: relative;
+        top: 2rem;
+    }
+    .waitlist {
+        height: 70vh;
+    }
+    .waitlist-container h2 {
+        font-size: 120%;
+    }
+    #email {
+        width: 80% !important;
+    }
+    .mail button {
+        padding: 10px 20px;
+        margin: 2rem;
+        font-size: 60%;
+    }
+    .simpl-bot-container {
+        flex-direction: column;
     }
     .simpl-box-container .right h2 {
         font-size: 18px;
