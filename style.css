@@ -595,5 +595,55 @@ footer {
 
 /* xs */
 @media (max-width: 480px) {
+    .navbar {
+        width: 100vw;
+    }
+    .hero {
+        width: 100vw;
+    }
+    .container-1 h2 {
+        font-size: 6vw;
+    }
+    .hero-container h2 {
+        font-size: 200%;
+    }
+    .hero-img-container {
+        width: 350px;
+        height: 170px;
+    }
+    .card-container {
+        flex-direction: column;
+   }
+   .simpl-box-container {
+       flex-direction: column;
+   }
+    .use-simpl {
+        height: 140vh;
+    }
+    .simpl-text {
+        max-width: 25ch;
+    }
+    .simpl-text .right {
+        position: absolute;
+        right: 10px;
+    }
+    .simpl-text p {
+        position: relative;
+        top: -20px;
+
+    }
+    .simpl-text .btn {
+        position: relative;
+        top: -25px;
+    }
+    .simpl-box-container .right h2 {
+        font-size: 18px;
+    }
     
+    .simpl-box-container .right p {
+        font-size: 14px;
+    }
+    .simpl-box-container .left h2 {
+        font-size: 18px;
+    }
 }
